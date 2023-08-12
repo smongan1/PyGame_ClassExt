@@ -1,5 +1,8 @@
 # PyGame_ClassExt_smongan1 Package
 <p>This package provides a collection of utility classes and functions designed to enhance game development using the Pygame library. It offers a variety of features to streamline the creation of interactive and animated game elements, manage inventories, implement physics, and more.
+  
+# Flowchart Diagram
+![Flowchart Diagram](Pygame_ClassExtOverview.png)
 
 ## BaseClasses.py
 <p>Description: This module provides a versatile framework for developing 2D games using the Pygame library. The framework includes a set of classes and functionalities designed to streamline various aspects of game development, such as managing graphical elements, interactive widgets, user input, and more.
