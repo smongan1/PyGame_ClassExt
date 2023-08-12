@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan  2 19:09:59 2023
+
+@author: smong
+"""
+
+healing #heals user hp for given amount
+uses #determines the number of times an Item can be used before being destroyed
+magicregen #restores magicpoints for a given amount

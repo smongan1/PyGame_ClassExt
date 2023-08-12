@@ -1,0 +1,9 @@
+setuptools
+pygame
+pyautogui
+numpy
+pdfplumber
+joblib
+textract
+nltk
+scikit-learn

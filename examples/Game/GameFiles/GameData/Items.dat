@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan  2 18:47:21 2023
+
+@author: smong
+"""
+
+__NEWITEM__
+name = 'Healing Potion'
+healing = 25
+
+__NEWITEM__
+name = 'Healing Potion'
+healing = 25

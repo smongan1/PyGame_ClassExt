@@ -1,0 +1,5 @@
+pip install --force-reinstall --user pygame
+pip install --force-reinstall --user pyautogui
+pip install --force-reinstall --user pdfplumber
+pip install --force-reinstall --user textract
+pip install --force-reinstall --user sklearn

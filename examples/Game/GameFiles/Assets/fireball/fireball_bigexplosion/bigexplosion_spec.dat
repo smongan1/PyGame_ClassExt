@@ -1,0 +1,6 @@
+kill_on_end = 'True'
+time_per_frame = 1/12
+repeat = False
+scale = 4
+never_rotate = True
+colorkey = (3,5,7)

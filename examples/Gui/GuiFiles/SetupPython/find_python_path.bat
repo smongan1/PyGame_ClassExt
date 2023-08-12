@@ -1,0 +1,1 @@
+dir "C:\*Python311" /s >> "SetupPython\python_path_temp.txt"
