@@ -6,7 +6,7 @@
 
 ### Features:
 
-<p>Easily create and manage game layers, widgets, actors, buttons, textboxes, and graphics.
+<p>Easily create and manage game layers, widgets, actors, buttons, textboxes, and graphics.<\p>
 <p>Automate component removal with the Deleteable class.
 <p>Handle user input, mouse events, and keyboard input seamlessly.
 <p>Implement interactive elements with customizable appearance and behavior.
