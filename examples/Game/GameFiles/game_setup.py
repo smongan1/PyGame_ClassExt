@@ -68,7 +68,7 @@ def setup_main_menu(game):
     position = [0, 0]
     color = (255,255,255)
     graphic = Graphic([300, 120], [250, 100])
-    font = pg.font.SysFont('Arial', 60).render('Fecktopia', True, (150, 100, 100))
+    font = pg.font.SysFont('Arial', 35).render('Good Name Here', True, (150, 100, 100))
     graphic.add_surf(font, [20,20])
     widget_dict = make_widget_dict(size, position, color, 
                                   buttons = buttons,
@@ -99,16 +99,24 @@ def setup_ingame_menu(game):
 
 def setup_save_menu(game):
     widget_dict = dict()
+    button_color = (0,0,0)
+    button_alpha = 0
     widget_dict['size'] = game.size*.5
     widget_dict['position'] = game.size*.25
     widget_dict['class'] = SaveWidget
     widget_dict['color'] = (100,100,100)
+    button_size = [200, 50]
+    widget_dict['buttons'] = [ChangeLayerButton("Main", [0,0], button_size, button_color, 
+button_alpha, "EXIT")]
     layer_dict = {'uses_prev_screen':True,
                   "name" : "Save_Menu"}
     return [widget_dict], layer_dict
 
 
 def setup_inventory(game):
+    button_size = [200, 50]
+    button_color = (0,0,0)
+    button_alpha = 0
     inventory_widget_dict = dict()
     widget_dict_scroll = dict()
     
@@ -119,6 +127,7 @@ def setup_inventory(game):
     inventory_widget_dict['class'] = Inventory
     inventory_widget_dict['id'] = "widget_inventory_main"
     inventory_widget_dict['color'] = (165, 82, 82)
+    inventory_widget_dict['buttons'] = [ChangeLayerButton("Main", [0,0], button_size, button_color, button_alpha, "EXIT")]
     widget_dict_scroll['size'] = [game.width*.025, inventory_widget_dict['size'][1]]
     widget_dict_scroll['color'] = (165, 42, 42)
     offset = inventory_widget_dict['size'][0] + inventory_widget_dict['position'][0]
