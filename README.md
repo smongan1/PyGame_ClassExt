@@ -5,7 +5,20 @@
 ![Diagram](./Pygame_ClassExtOverview.png)
 
 ## Containerized Diagram
-![Diagram](./PygameFramework.png)
+![Diagram](./PygameFramework_Example.png)
+<p><b>GameHandler</b>: The core element managing game functionality. It comprises two main parts: "Screen" and "Game."
+<p><b>Screen</b>: Represents the visible game interface for players. It contains a "Display Layer" where visual elements are presented.
+<p><b>Game</b>: Responsible for game logic. Interacts with the "Current Layer" and includes a connection to "Change Current Layer."
+<p><b>Current Layer</b>: The currently active game layer displayed on the screen. It encompasses elements like "Widget1," "Widget2," and so on.
+<p><b>Widget1</b>: Contains in-game entities and interactive elements (like <b>Buttons</b> and <b>Actors</b> aka characters).
+<p><b>Widget2</b>: Similar to Widget1, also containing game entities and interactive elements.
+<p><b>Unused Layers</b>: Inactive layers, such as "Layer2" and "Layer3."
+<p><b>Layer2</b>: Similar to the active layers, holding "Widget3" and "Widget4."
+<p><b>Layer3</b>: Also similar to the active layers, housing "Widget5" and "Widget6."
+<p><b>ChangeLayerButton</b>: Transitions active layer when pressed.
+<p>The directional arrows in the diagram represent interactions:
+<p>The arrow "Send Current Layer To Screen" indicates that the content of the Current Layer is displayed on the Screen.
+<p>In summary, the diagram visually outlines the relationships between different components within the game framework.
 
 ## BaseClasses.py
 <p>Description: This module provides a versatile framework for developing 2D games using the Pygame library. The framework includes a set of classes and functionalities designed to streamline various aspects of game development, such as managing graphical elements, interactive widgets, user input, and more.
