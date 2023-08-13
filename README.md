@@ -4,6 +4,9 @@
 ## Flowchart Diagram
 ![Diagram](./Pygame_ClassExtOverview.png)
 
+## Containerized Diagram
+![Diagram](./PygameFramework.png)
+
 ## BaseClasses.py
 <p>Description: This module provides a versatile framework for developing 2D games using the Pygame library. The framework includes a set of classes and functionalities designed to streamline various aspects of game development, such as managing graphical elements, interactive widgets, user input, and more.
 
