@@ -70,8 +70,8 @@ Description: This module contains a collection of utility functions for various 
 
 <p>AnimatedActor: Manages animated game objects with animations, effects, and rotation.
 <p>Animation: Represents animations with frame rotation, specifications, and shadow rendering.
-<p>HoverWidget: Creates interactive widgets with hover effects.
-<p>DisplacementEffects: Defines displacement effects for modifying actor position.
+<p>HoverWidget: Creates interactive widgets with hoverover effects.
+<p>DisplacementEffects: Defines displacement effects for modifying actor draw position.
 
 ## RPGElements.py
 <p>Description: This module introduces classes and utilities for implementing game-related functionality using Pygame. It includes classes for managing inventories, creating interactive scrollbars, and handling game items.
